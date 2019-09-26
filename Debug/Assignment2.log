@@ -1,0 +1,4 @@
+﻿  Trader.cpp
+G:\VisualStudioProjects\Assignment2\Trader.cpp(5,32): error C2734: “MINPRICE”: 如果不是外部的，则必须初始化常量对象
+G:\VisualStudioProjects\Assignment2\Trader.cpp(5,24): error C2146: 语法错误: 缺少“;”(在标识符“MAXPRICE”的前面)
+G:\VisualStudioProjects\Assignment2\Trader.cpp(5,24): error C2065: “MAXPRICE”: 未声明的标识符
