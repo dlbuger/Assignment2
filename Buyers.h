@@ -3,12 +3,12 @@
 #include <vector>
 
 
-// A类是买家， B类是卖家
-// 
+// A类是卖家， B类是买家
+
 class Buyers : public Traders
 {
 private:
-	const char TRADERTYPE = 'A';
+	const char TRADERTYPE = 'B';
 
 	
 public:

@@ -2,7 +2,7 @@
 
 void Traders::add(char type)
 {
-	traders.push_back(Trader(readString("Name"), type));
+	traders.push_back(Trader(id++, readString("Name"), type));
 }
 
 Trader* Traders::find(int id)

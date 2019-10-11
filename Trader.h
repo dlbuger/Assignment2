@@ -11,9 +11,8 @@ private:
 	char traderType;
 	int id;
 public: 
-	Trader(String traderName, char traderType);
+	Trader(int id, String traderName, char traderType);
 	Bid generateBid();
 	int getId();
-	
 };
 

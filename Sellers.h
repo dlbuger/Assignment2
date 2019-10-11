@@ -4,7 +4,7 @@
 class Sellers : public Traders
 {
 private:
-	const char TRADERTYPE = 'B';
+	const char TRADERTYPE = 'A';
 
 public:
 	void add();

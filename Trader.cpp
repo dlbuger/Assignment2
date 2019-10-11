@@ -1,8 +1,9 @@
 #include "Trader.h"
 
 
-Trader::Trader(String traderName, char traderType)
+Trader::Trader(int id, String traderName, char traderType)
 {
+	this->id = id;
 	this->traderName = traderName;
 	this->traderType = traderType;
 }

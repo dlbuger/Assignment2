@@ -126,6 +126,7 @@
     <ClCompile Include="Auctioneer.cpp" />
     <ClCompile Include="Bid.cpp" />
     <ClCompile Include="Buyers.cpp" />
+    <ClCompile Include="Match.cpp" />
     <ClCompile Include="Sellers.cpp" />
     <ClCompile Include="Trader.cpp" />
     <ClCompile Include="Traders.cpp" />
@@ -134,6 +135,7 @@
     <ClInclude Include="Auctioneer.h" />
     <ClInclude Include="Bid.h" />
     <ClInclude Include="Buyers.h" />
+    <ClInclude Include="Match.h" />
     <ClInclude Include="Sellers.h" />
     <ClInclude Include="Tools.h" />
     <ClInclude Include="Trader.h" />
