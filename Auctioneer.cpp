@@ -20,30 +20,25 @@ bool Auctioneer::isMatched(Bid buyBid, Bid sellBid)
 
 void Auctioneer::matchingBids()
 {
-	int _tmp = 0;
 	for (vector<Bid>::iterator i = buyBids.begin(); i != buyBids.end(); i++)
 	{
 		for (vector<Bid>::iterator j = sellBids.begin(); j != sellBids.end(); j++)
 		{
-			cout << ++_tmp << endl;
 			if (isMatched(*i, *j))
 			{
 				matchedBids.push_back(Match(*i, *j));
-				Bid sell = *j; // tmp
-				if (j->getQuantity() - matchedBids.end()->getQuantity() == 0)
+				if (j->getQuantity() - matchedBids.back().getQuantity() == 0)
 				{
-					cout << "excuting erase!" << endl;
 					sellBids.erase(j);
 					buyBids.erase(i);
 				}
 				else {
-					j->setQuantity(j->getQuantity() - matchedBids.end()->getQuantity());
-					i->setQuantity(j->getQuantity() - matchedBids.end()->getQuantity());
+					j->setQuantity(j->getQuantity() - matchedBids.back().getQuantity());
+					i->setQuantity(j->getQuantity() - matchedBids.back().getQuantity());
 				}
 			}
 		} // 内循环结束
 	} // 外循环结束
-
 	cout << "匹配完成！" << endl;
 }
 

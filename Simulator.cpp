@@ -2,12 +2,22 @@
 
 Simulator::Simulator()
 {
+	/*
 	NUMSELLER = readInt("Number of Sellers");
 	NUMBUYER = readInt("Number of Buyers");
 	MINPRICE = readDouble("Min Price");
 	MAXPRICE = readDouble("Max Price");
 	MINQUANTITY = readInt("Min Quantity");
 	MAXQUANTITY = readInt("Max Quantity");
+	*/
+
+	NUMSELLER = 10;
+	NUMBUYER = 10;
+	MINPRICE = 50;
+	MAXPRICE = 150;
+	MINQUANTITY = 1;
+	MAXQUANTITY = 50;
+
 
 	setupTraders();
 	setupBids();
