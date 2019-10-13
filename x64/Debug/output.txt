@@ -1,22 +1,43 @@
 Generated bids: 
 (traderName, bidId, bidType, price, quantity)
-( Seller1,   0,   A,   134.386731,   28 )
-( Seller2,   1,   A,   123.342082,   16 )
-( Seller3,   2,   A,   100.343333,   38 )
-( Seller4,   3,   A,   64.041566,   18 )
-( Seller5,   4,   A,   122.347179,   45 )
-( Seller6,   5,   A,   51.730399,   32 )
-( Seller7,   6,   A,   113.026826,   24 )
-( Seller8,   7,   A,   131.817072,   29 )
-( Seller9,   8,   A,   66.644795,   30 )
-( Seller10,   9,   A,   123.503830,   15 )
-( Buyer1,   10,   B,   93.305765,   10 )
-( Buyer2,   11,   B,   52.536088,   36 )
-( Buyer3,   12,   B,   138.479263,   20 )
-( Buyer4,   13,   B,   52.090518,   39 )
-( Buyer5,   14,   B,   116.026795,   42 )
-( Buyer6,   15,   B,   84.937590,   39 )
-( Buyer7,   16,   B,   132.836390,   47 )
-( Buyer8,   17,   B,   90.058596,   6 )
-( Buyer9,   18,   B,   133.144627,   36 )
-( Buyer10,   19,   B,   106.758324,   36 )
+( Seller1,   0,   A,   78.363903,   5 )
+( Seller2,   1,   A,   107.414472,   2 )
+( Seller3,   2,   A,   110.917997,   29 )
+( Seller4,   3,   A,   80.686361,   7 )
+( Seller5,   4,   A,   90.656758,   46 )
+( Seller6,   5,   A,   59.817804,   28 )
+( Seller7,   6,   A,   66.278573,   42 )
+( Seller8,   7,   A,   102.705466,   28 )
+( Seller9,   8,   A,   135.482345,   1 )
+( Seller10,   9,   A,   78.543962,   23 )
+( Buyer1,   10,   B,   130.562761,   4 )
+( Buyer2,   11,   B,   63.324381,   21 )
+( Buyer3,   12,   B,   102.677999,   37 )
+( Buyer4,   13,   B,   122.985015,   32 )
+( Buyer5,   14,   B,   95.323038,   10 )
+( Buyer6,   15,   B,   99.882504,   18 )
+( Buyer7,   16,   B,   147.732475,   32 )
+( Buyer8,   17,   B,   68.259224,   37 )
+( Buyer9,   18,   B,   118.742943,   12 )
+( Buyer10,   19,   B,   74.222541,   22 )
+Matched Bids: 
+Unmatched Buy Bids: 
+tched Buy Bids: 
+atched Buy Bids: 
+s: 
+s: 
+atched Buy Bids: 
+Bids: 
+nmatched Buy Bids: 
+ack() called on empty vectord Buy Bids: 
+nmatched Buy Bids: 
+Unmatched Ask Bids: 
+( Seller5,   4,   A,   90.656758,   34 )
+( Seller8,   7,   A,   102.705466,   28 )
+( Seller9,   8,   A,   135.482345,   1 )
+( Seller10,   9,   A,   78.543962,   5 )
+Unmatched Buy Bids: 
+( Buyer2,   11,   B,   63.324381,   -14 )
+( Buyer6,   15,   B,   99.882504,   -13 )
+( Buyer8,   17,   B,   68.259224,   -32 )
+( Buyer10,   19,   B,   74.222541,   22 )

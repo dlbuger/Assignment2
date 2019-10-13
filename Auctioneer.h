@@ -3,6 +3,7 @@
 #include "Buyers.h"
 #include "Sellers.h"
 #include "Match.h"
+#include <fstream>
 
 using namespace std;
 
@@ -23,7 +24,7 @@ public:
 	Auctioneer(vector<Bid> buyBids, vector<Bid> sellBids);
 	~Auctioneer() {};
 
-	String toString();
+	void toFile();
 
 	vector<Bid> getBuyBids();
 	vector<Bid> getSellBids();

@@ -32,7 +32,7 @@ Simulator::Simulator()
 		out << i.toString() << endl;
 
 	Auctioneer a1(buys, sells);
-	out << a1.toString() << endl;
+
 	cout << "Auction outcomes have been output to file output.txt" << endl;
 
 }
