@@ -36,6 +36,12 @@
     <ClCompile Include="Match.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Bid.h">
@@ -60,6 +66,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Match.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulator.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

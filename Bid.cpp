@@ -21,7 +21,13 @@ int Bid::getQuantity()
 {
 	return quantity;
 }
+
+void Bid::setQuantity(int quantity)
+{
+	this->quantity = quantity;
+}
+
 String Bid::toString()
 {
-	return "( " + traderName + ",   " + to_string(bidId) + ",   " + bidType + ",   " + to_string(price) + ",   " + to_string(quantity) + " )";
+	return "( " + traderName + ",   " + to_string(bidId) + ",   " + bidType + ",   " + to_string(price) + ",   " + to_string(quantity) + " )\n";
 }

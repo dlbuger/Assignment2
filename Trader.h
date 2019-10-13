@@ -13,6 +13,7 @@ private:
 public: 
 	Trader(int id, String traderName, char traderType);
 	Bid generateBid();
+	Bid generateBid(double MINPRICE, double MAXPRICE, int MINQUANTITY, int MAXQUANTITY);
 	int getId();
 };
 

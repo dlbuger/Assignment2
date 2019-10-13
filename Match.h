@@ -5,11 +5,16 @@ class Match
 {
 private:
 	Bid* matches[2];
+	double clearingPrice;
+	int tradeQuantity;
+	void sync(); // 同步匹配后的Bids的 price 和 quantity
+	int findMin(); // 返回最小的quantity
 
 public:
-	Match(Bid bid1, Bid bid2);
+	Match(Bid buyBid, Bid sellBid);
 	~Match() {};
 	String toString();
+	int getQuantity();
 
 };
 

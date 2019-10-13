@@ -7,5 +7,6 @@ private:
 	const char TRADERTYPE = 'A';
 
 public:
+	~Sellers() {};
 	void add();
 };

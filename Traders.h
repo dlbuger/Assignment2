@@ -9,7 +9,6 @@ protected:
 	int id = 1;
 	
 public: 
-
 	~Traders() {};
 	void add(char type);
 	Trader* find(int id);

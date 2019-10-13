@@ -1,0 +1,22 @@
+Generated bids: 
+(traderName, bidId, bidType, price, quantity)
+( Seller1,   0,   A,   118.251595,   25 )
+
+( Seller2,   1,   A,   60.116886,   20 )
+
+( Seller3,   2,   A,   138.137455,   37 )
+
+( Seller4,   3,   A,   86.057619,   49 )
+
+( Seller5,   4,   A,   141.952269,   33 )
+
+( Buyer1,   5,   B,   82.505264,   23 )
+
+( Buyer2,   6,   B,   129.360332,   47 )
+
+( Buyer3,   7,   B,   84.870449,   46 )
+
+( Buyer4,   8,   B,   64.413892,   13 )
+
+( Buyer5,   9,   B,   78.290658,   49 )
+

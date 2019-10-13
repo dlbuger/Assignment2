@@ -9,16 +9,24 @@ Trader::Trader(int id, String traderName, char traderType)
 }
 
 Bid Trader::generateBid()
-{
-	double const MINPRICE = readDobule("Min Price");
-	double const MAXPRICE = readDobule("Max Price");
+{	
+	double const MINPRICE = readDouble("Min Price");
+	double const MAXPRICE = readDouble("Max Price");
 	int const MINQUANTITY = readInt("Min Quantity");
 	int const MAXQUANTITY = readInt("Max Quantity");
 
 	double price = random<double>(MINPRICE, MAXPRICE);
 	int quantity = random<int>(MINQUANTITY, MAXQUANTITY);
 
-	return Bid(traderName, ++id, traderType, price, quantity);
+	return Bid(traderName, id, traderType, price, quantity);
+}
+
+Bid Trader::generateBid(double MINPRICE, double MAXPRICE, int MINQUANTITY, int MAXQUANTITY)
+{
+	double price = random<double>(MINPRICE, MAXPRICE);
+	int quantity = random<int>(MINQUANTITY, MAXQUANTITY);
+	
+	return Bid(traderName, id, traderType, price, quantity);
 }
 
 int Trader::getId()

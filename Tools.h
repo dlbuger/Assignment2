@@ -1,9 +1,11 @@
 #pragma once
 #include <iostream>
+#include "time.h"
 using namespace std;
 typedef string String;
 
-static double readDobule(String str)
+
+static double readDouble(String str)
 {
 	double tmp;
 	cout << "Please Enter the " << str << ": ";
@@ -30,6 +32,5 @@ static int readInt(String str)
 template <typename T>
 static T random(T min, T max)
 {
-	srand(time(NULL));
 	return (T)rand() / (double) RAND_MAX * (max - min) + min;
 }

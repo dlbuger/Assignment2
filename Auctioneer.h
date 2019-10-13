@@ -10,7 +10,6 @@ class Auctioneer
 {
 private:
 	
-
 	vector<Bid> buyBids;
 	vector<Bid> sellBids;
 
@@ -18,12 +17,15 @@ private:
 	vector<Bid> unmatchedBids;
 	bool isMatched(Bid buyBid, Bid sellBid);
 	void matchingBids();
-
-public:
-	Auctioneer();
-	~Auctioneer() {};
-
 	
 
+public:
+	Auctioneer(vector<Bid> buyBids, vector<Bid> sellBids);
+	~Auctioneer() {};
+
+	String toString();
+
+	vector<Bid> getBuyBids();
+	vector<Bid> getSellBids();
 };
 
