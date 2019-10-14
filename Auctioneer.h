@@ -1,7 +1,5 @@
 #pragma once
 #include <vector>
-#include "Buyers.h"
-#include "Sellers.h"
 #include "Match.h"
 #include <fstream>
 
@@ -11,22 +9,20 @@ class Auctioneer
 {
 private:
 	
-	vector<Bid> buyBids;
-	vector<Bid> sellBids;
+	vector<Bid>* buyBids = new vector<Bid>;
+	vector<Bid>* sellBids = new vector<Bid>;
 
-	vector<Match> matchedBids;
-	vector<Bid> unmatchedBids;
+	vector<Match>* matchedBids = new vector<Match>;
+	
 	bool isMatched(Bid buyBid, Bid sellBid);
 	void matchingBids();
 	
 
 public:
-	Auctioneer(vector<Bid> buyBids, vector<Bid> sellBids);
-	~Auctioneer() {};
+	Auctioneer(vector<Bid>* buyBids, vector<Bid>* sellBids);
+	~Auctioneer();
 
 	void toFile();
 
-	vector<Bid> getBuyBids();
-	vector<Bid> getSellBids();
 };
 

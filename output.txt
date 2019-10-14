@@ -1,22 +1,45 @@
 Generated bids: 
 (traderName, bidId, bidType, price, quantity)
-( Seller,   0,   A,   77,   36 )
-( Seller,   1,   A,   111,   21 )
-( Seller,   2,   A,   114,   17 )
-( Seller,   3,   A,   128,   18 )
-( Seller,   4,   A,   133,   19 )
-( Seller,   5,   A,   104,   46 )
-( Seller,   6,   A,   135,   6 )
-( Seller,   7,   A,   55,   23 )
-( Seller,   8,   A,   133,   12 )
-( Seller,   9,   A,   59,   10 )
-( Buyer,   10,   B,   131,   47 )
-( Buyer,   11,   B,   132,   6 )
-( Buyer,   12,   B,   126,   40 )
-( Buyer,   13,   B,   94,   9 )
-( Buyer,   14,   B,   123,   28 )
-( Buyer,   15,   B,   128,   30 )
-( Buyer,   16,   B,   89,   26 )
-( Buyer,   17,   B,   82,   47 )
-( Buyer,   18,   B,   122,   34 )
-( Buyer,   19,   B,   128,   24 )
+( Seller1,   0,   A,   57,   18 )
+( Seller2,   1,   A,   79,   24 )
+( Seller3,   2,   A,   93,   1 )
+( Seller4,   3,   A,   101,   17 )
+( Seller5,   4,   A,   69,   38 )
+( Seller6,   5,   A,   127,   34 )
+( Seller7,   6,   A,   95,   12 )
+( Seller8,   7,   A,   82,   12 )
+( Seller9,   8,   A,   148,   40 )
+( Seller10,   9,   A,   73,   29 )
+( Buyer1,   10,   B,   73,   45 )
+( Buyer2,   11,   B,   78,   22 )
+( Buyer3,   12,   B,   71,   24 )
+( Buyer4,   13,   B,   85,   37 )
+( Buyer5,   14,   B,   137,   47 )
+( Buyer6,   15,   B,   144,   14 )
+( Buyer7,   16,   B,   141,   40 )
+( Buyer8,   17,   B,   57,   39 )
+( Buyer9,   18,   B,   124,   5 )
+( Buyer10,   19,   B,   103,   34 )
+Matched Bids: 
+( Buyer1,   10,   B,   73,   18 ) < = > ( Seller1,   0,   A,   57,   18 ) With clearingPrice: 65.000000
+( Buyer1,   10,   B,   73,   27 ) < = > ( Seller5,   4,   A,   69,   27 ) With clearingPrice: 71.000000
+( Buyer2,   11,   B,   78,   22 ) < = > ( Seller10,   9,   A,   73,   22 ) With clearingPrice: 75.000000
+( Buyer4,   13,   B,   85,   24 ) < = > ( Seller2,   1,   A,   79,   24 ) With clearingPrice: 82.000000
+( Buyer4,   13,   B,   85,   11 ) < = > ( Seller5,   4,   A,   69,   11 ) With clearingPrice: 77.000000
+( Buyer4,   13,   B,   85,   2 ) < = > ( Seller8,   7,   A,   82,   2 ) With clearingPrice: 83.000000
+( Buyer5,   14,   B,   137,   7 ) < = > ( Seller10,   9,   A,   73,   7 ) With clearingPrice: 105.000000
+( Buyer6,   15,   B,   144,   1 ) < = > ( Seller3,   2,   A,   93,   1 ) With clearingPrice: 118.000000
+( Buyer6,   15,   B,   144,   13 ) < = > ( Seller6,   5,   A,   127,   13 ) With clearingPrice: 135.000000
+( Buyer7,   16,   B,   141,   12 ) < = > ( Seller7,   6,   A,   95,   12 ) With clearingPrice: 118.000000
+( Buyer9,   18,   B,   124,   5 ) < = > ( Seller4,   3,   A,   101,   5 ) With clearingPrice: 112.000000
+( Buyer10,   19,   B,   103,   10 ) < = > ( Seller8,   7,   A,   82,   10 ) With clearingPrice: 92.000000
+Unmatched Ask Bids: 
+( Seller4,   3,   A,   101,   12 )
+( Seller6,   5,   A,   127,   21 )
+( Seller9,   8,   A,   148,   40 )
+Unmatched Buy Bids: 
+( Buyer3,   12,   B,   71,   24 )
+( Buyer5,   14,   B,   137,   40 )
+( Buyer7,   16,   B,   141,   28 )
+( Buyer8,   17,   B,   57,   39 )
+( Buyer10,   19,   B,   103,   24 )

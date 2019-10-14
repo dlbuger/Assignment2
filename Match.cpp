@@ -1,8 +1,8 @@
 #include "Match.h"
 Match::Match(Bid buyBid, Bid sellBid)
 {
-	matches[0] =  &buyBid;
-	matches[1] = &sellBid;
+	matches[0] =  buyBid;
+	matches[1] = sellBid;
 	sync();
 }
 
@@ -10,18 +10,18 @@ Match::Match(Bid buyBid, Bid sellBid)
 
 void Match::sync()
 {
-	clearingPrice = (matches[0]->getPrice() + matches[1]->getPrice()) / 2; // clear price = (a + b) / 2
+	clearingPrice = (matches[0].getPrice() + matches[1].getPrice()) / 2; // clear price = (a + b) / 2
 	tradeQuantity = findMin();
-	matches[0]->setQuantity(tradeQuantity);
-	matches[1]->setQuantity(tradeQuantity);
+	matches[0].setQuantity(tradeQuantity);
+	matches[1].setQuantity(tradeQuantity);
 }
 
 int Match::findMin()
 {
-	if (matches[0]->getQuantity() < matches[1]->getQuantity())
-		return matches[0]->getQuantity();
+	if (matches[0].getQuantity() < matches[1].getQuantity())
+		return matches[0].getQuantity();
 	else
-		return matches[1]->getQuantity();
+		return matches[1].getQuantity();
 }
 
 int Match::getQuantity()
@@ -31,10 +31,10 @@ int Match::getQuantity()
 
 String Match::getName()
 {
-	return matches[0]->getName() + " < = > " + matches[1]->getName();
+	return matches[0].getName() + " < = > " + matches[1].getName();
 }
 
 String Match::toString()
 {
-	return matches[0]->toString() + " < = > " + matches[1]->toString() + " With clearingPrice: " + to_string(clearingPrice);
+	return matches[0].toString() + " < = > " + matches[1].toString() + " With clearingPrice: " + to_string(clearingPrice);
 }

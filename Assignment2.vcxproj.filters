@@ -21,15 +21,6 @@
     <ClCompile Include="Trader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Buyers.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Sellers.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Traders.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="Auctioneer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -52,15 +43,6 @@
     </ClInclude>
     <ClInclude Include="Tools.h">
       <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Buyers.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Sellers.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Traders.h">
-      <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Auctioneer.h">
       <Filter>头文件</Filter>

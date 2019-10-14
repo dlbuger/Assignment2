@@ -4,7 +4,8 @@
 class Match
 {
 private:
-	Bid* matches[2];
+	Bid* matches = new Bid[2];
+	
 	double clearingPrice;
 	int tradeQuantity;
 	void sync(); // 同步匹配后的Bids的 price 和 quantity

@@ -1,16 +1,17 @@
 #pragma once
 #include "Auctioneer.h"
+#include "Trader.h"
 #include <fstream>
 
 
 class Simulator
 {
 private:
-	vector<Trader> sellers;
-	vector<Trader> buyers;
+	vector<Trader>* sellers = new vector<Trader>;
+	vector<Trader>* buyers =  new vector<Trader>;
 
-	vector<Bid> sells;
-	vector<Bid> buys;
+	vector<Bid>* sells = new vector<Bid>;
+	vector<Bid>* buys = new vector<Bid>;
 
 	int NUMSELLER;
 	int NUMBUYER;
@@ -30,6 +31,6 @@ private:
 
 public:
 	Simulator();
-	~Simulator() { };
+	~Simulator();
 };
 

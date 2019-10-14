@@ -16,6 +16,7 @@ private:
 
 public:
 	Bid(String traderName, int bidId, char bidType, int price, int quantity);
+	Bid() {};
 	~Bid() {};
 
 	char getType();
