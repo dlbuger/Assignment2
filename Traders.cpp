@@ -12,8 +12,3 @@ Trader* Traders::find(int id)
 			return &c;
 	return NULL;
 }
-
-int Traders::numberOfTraders()
-{
-	return traders.size();
-}

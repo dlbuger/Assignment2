@@ -1,4 +1,8 @@
-﻿  Auctioneer.cpp
-  Simulator.cpp
+﻿  Simulator.cpp
+G:\dev\Assignment2\Simulator.cpp(54,43): warning C4244:  “参数”: 从“double”转换到“int”，可能丢失数据
+G:\dev\Assignment2\Simulator.cpp(54,33): warning C4244:  “参数”: 从“double”转换到“int”，可能丢失数据
+G:\dev\Assignment2\Simulator.cpp(56,42): warning C4244:  “参数”: 从“double”转换到“int”，可能丢失数据
+  main.cpp
   正在生成代码...
+G:\dev\Assignment2\Simulator.cpp(56,32): warning C4244:  “参数”: 从“double”转换到“int”，可能丢失数据
   Assignment2.vcxproj -> G:\dev\Assignment2\x64\Debug\Assignment2.exe

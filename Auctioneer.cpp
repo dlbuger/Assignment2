@@ -29,7 +29,7 @@ void Auctioneer::matchingBids()
 			{
 				matchedBids.push_back(Match(*i, *j));
 				cout << matchedBids.size() << endl;
-				cout << matchedBids.back().toString();
+				
 				if (j->getQuantity() - matchedBids.back().getQuantity() == 0)
 				{
 					j = sellBids.erase(j);
@@ -54,8 +54,10 @@ void Auctioneer::toFile()
 {
 	ofstream out("output.txt", ios::app);
 	out << "Matched Bids: \n";
+
 	for (Match i : matchedBids)
-		out << i.getQuantity() + "\n";
+		out << i.getName() + "\n";
+
 	out << "Unmatched Ask Bids: \n";
 	for (Bid i : sellBids)
 		out << i.toString() + "\n";

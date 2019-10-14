@@ -1,6 +1,6 @@
 #include "Bid.h"
 
-Bid::Bid(String traderName, int bidId, char bidType, double price, int quantity)
+Bid::Bid(String traderName, int bidId, char bidType, int price, int quantity)
 {
 	this->traderName = traderName;
 	this->bidId = bidId;
@@ -13,13 +13,18 @@ char Bid::getType()
 {
 	return bidType;
 }
-double Bid::getPrice()
+int Bid::getPrice()
 {
 	return price;
 }
 int Bid::getQuantity()
 {
 	return quantity;
+}
+
+String Bid::getName()
+{
+	return traderName;
 }
 
 void Bid::setQuantity(int quantity)

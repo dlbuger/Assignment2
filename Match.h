@@ -13,8 +13,10 @@ private:
 public:
 	Match(Bid buyBid, Bid sellBid);
 	~Match() {};
-	String toString();
+	String getName();
 	int getQuantity();
+
+	String toString();
 
 };
 

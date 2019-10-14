@@ -11,16 +11,17 @@ private:
 	String traderName;
 	int bidId;
 	char bidType;
-	double price;
+	int price;
 	int quantity;
 
 public:
-	Bid(String traderName, int bidId, char bidType, double price, int quantity);
+	Bid(String traderName, int bidId, char bidType, int price, int quantity);
 	~Bid() {};
 
 	char getType();
-	double getPrice();
+	int getPrice();
 	int getQuantity();
+	String getName();
 
 	void setQuantity(int quantity);
 	String toString();

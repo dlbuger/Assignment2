@@ -40,9 +40,11 @@ Simulator::Simulator()
 void Simulator::setupTraders()
 {
 	for (int i = 0; i < NUMSELLER; i++)
-		sellers.push_back(Trader(_traderId++, "Seller" + to_string(++_sellerNum), 'A'));
+		sellers.push_back(Trader(_traderId++, "Seller", 'A'));
 	for (int i = 0; i < NUMBUYER; i++)
-		buyers.push_back(Trader(_traderId++, "Buyer" + to_string(++_buyerNum), 'B'));
+		buyers.push_back(Trader(_traderId++, "Buyer", 'B'));
+	cout << sellers.size() << endl;
+	cout << buyers.size() << endl;
 }
 
 void Simulator::setupBids()

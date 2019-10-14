@@ -30,6 +30,6 @@ private:
 
 public:
 	Simulator();
-	~Simulator() {};
+	~Simulator() { };
 };
 

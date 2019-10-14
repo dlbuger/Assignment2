@@ -21,9 +21,9 @@ Bid Trader::generateBid()
 	return Bid(traderName, id, traderType, price, quantity);
 }
 
-Bid Trader::generateBid(double MINPRICE, double MAXPRICE, int MINQUANTITY, int MAXQUANTITY)
+Bid Trader::generateBid(int MINPRICE, int MAXPRICE, int MINQUANTITY, int MAXQUANTITY)
 {
-	double price = random<double>(MINPRICE, MAXPRICE);
+	int price = random<int>(MINPRICE, MAXPRICE);
 	int quantity = random<int>(MINQUANTITY, MAXQUANTITY);
 	
 	return Bid(traderName, id, traderType, price, quantity);

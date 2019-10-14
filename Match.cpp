@@ -6,10 +6,7 @@ Match::Match(Bid buyBid, Bid sellBid)
 	sync();
 }
 
-String Match::toString()
-{
-	return matches[0]->toString() + " < = > " + matches[1]->toString() + " With clearingPrice: " + to_string(clearingPrice) + "\n";
-}
+
 
 void Match::sync()
 {
@@ -32,3 +29,12 @@ int Match::getQuantity()
 	return tradeQuantity;
 }
 
+String Match::getName()
+{
+	return matches[0]->getName() + " < = > " + matches[1]->getName();
+}
+
+String Match::toString()
+{
+	return matches[0]->toString() + " < = > " + matches[1]->toString() + " With clearingPrice: " + to_string(clearingPrice);
+}
